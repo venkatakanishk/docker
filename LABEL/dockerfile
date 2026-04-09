@@ -1,0 +1,4 @@
+FROM almalinux:9
+LABEL COURSE="Docker" \
+        Trainer="Siva" \
+        DURATION="120HRS"
