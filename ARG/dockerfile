@@ -1,0 +1,7 @@
+ARG version
+FROM almalinux:${version:-8}
+ARG COURSE="Docker" \
+    Trainer="Siva Reddy"
+    Duration="140hrs"
+CMD ["sleep","100"]
+
