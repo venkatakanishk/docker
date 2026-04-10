@@ -3,5 +3,6 @@ FROM almalinux:${version:-8}
 ARG COURSE="Docker" \
     Trainer="Siva Reddy" \
     Duration="140hrs"
+RUN echo "Trainer is : ${Trainer}"
 CMD ["sleep","100"]
 
